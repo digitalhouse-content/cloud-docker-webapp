@@ -8,6 +8,10 @@ on:
      - 'src/*'
      - 'package.json'
      - 'public/*'
+    tags:
+     - v*.*.*
+    tags-ignore:
+     - v*.*.*-beta
     # paths:
     #  - 'src/*'
     #  - 'package.json'
