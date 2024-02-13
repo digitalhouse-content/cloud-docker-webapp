@@ -4,10 +4,14 @@ on:
   push:
     branches:
      - main
-    paths:
+    paths-ignore:
      - 'src/*'
      - 'package.json'
      - 'public/*'
+    # paths:
+    #  - 'src/*'
+    #  - 'package.json'
+    #  - 'public/*'
 
 jobs:
   build:
