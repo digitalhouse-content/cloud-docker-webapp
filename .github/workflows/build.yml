@@ -10,8 +10,8 @@ on:
      - 'public/*'
     tags:
      - v*.*.*
-    tags-ignore:
-     - v*.*.*-beta
+    # tags-ignore:
+    #  - v*.*.*-beta
     # paths:
     #  - 'src/*'
     #  - 'package.json'
